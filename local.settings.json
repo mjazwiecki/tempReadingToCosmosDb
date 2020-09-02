@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "IotHubConnectionString": "<iot-hub-connection-string>",
+    "AzureCosmosDBConnectionString": "<cosmos-db-connection-string>"
+  }
+}

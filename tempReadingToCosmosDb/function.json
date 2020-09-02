@@ -1,0 +1,23 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "<iot-hub-name>",
+      "connection": "IotHubConnectionString",
+      "cardinality": "one",
+      "consumerGroup": "<iot-hub-consumer-group>"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "doc",
+      "databaseName": "<cosmos-db-database-name>",
+      "collectionName": "<cosmos-db-container-name>",
+      "createIfNotExists": "true",
+      "connectionStringSetting": "AzureCosmosDBConnectionString"
+    }
+  ]
+}

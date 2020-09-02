@@ -1,4 +1,4 @@
 # tempReadingToCosmosDb
-simple python azure function pushing messages from iot hub to cosmos db
+Simple python azure function pushing messages from iot hub to cosmos db
 
-could be used in conjunction with https://github.com/mjazwiecki/rpiTemperatureSensorsBle
+Could be used in conjunction with raspberry pi, xiaomi miija and ruuvitag sensors: https://github.com/mjazwiecki/rpiTemperatureSensorsBle
